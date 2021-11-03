@@ -2,59 +2,68 @@
 <head>
     <meta charset="UTF-8">
     <title>geraskinaliz</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
-    <table>
-        <tr>
-            <td><img src="avatar.jpg" width="200" alt="Моя фотография"></td>
-                <td>
+    <div class="container">
+    <div class="info">
+        
+            <img src="avatar.jpg" alt="Моя фотография" class="avatar">
+            <div class="info-text">
                     <h1>Елизавета Гераськина</h1>
-                    <p><em>Я студентка 4 курса 
-                        <strong>Рязанского колледжа электроники</strong></em></p>
+                    <h4>Должность: Сетевой и систменый администратор</h4>
+                    <p>Cтудентка 4 курса 
+                        <strong>Рязанского колледжа электроники</strong></p>
                     <p>
                         Дата рождения: 13.03.2003 г. </p>
                         <p>Город: Рязань</p>
                         <p>Семейное положение: не замужем</p>
                         <p>Телефон: 7-920-999-ХХ-ХХ</p>
                         <p>E-mail: liza.geraskina.2014@mail.ru</p>
-                
-            </td>
-        </tr>
-    </table>
+                        <h4>Мои социальные сети</h4>
+                        
+
+                            <a href="https://vk.com/geraskinaliz" target="_blank">Вконтакте</a></li>
+                            <a href="https://t.me/geraskinaliz" target="_blank">Telegram</a></li>
+                        
+                    </div>
+                    </div>      
     
+
+    <div class="card bg-blue">
+        <h2>Личные качества</h2>
+        <ol сlass="navk">
+            <li>Стрессоустойчивость</li>
+            <li>Коммуникабельность</li> 
+            <li>Способность работать в команде</li>
+            <li>Нацеленность на результат</li>
+            <li>Умение быстро принимать решения</li>
+        </ol>
+        
+    </div>
+
     
+  
 
-    <hr>
 
-    <h2>Мои социальные сети</h2>
-<ul>
-    <li><a href="https://vk.com/geraskinaliz" target="_blank">Вконтакте</a></li>
-    <li><a href="https://t.me/geraskinaliz" target="_blank">Telegram</a></li>
-</ul>
-
-<hr>
+<div class="card bg-yellow">
 
 <h2>Опыт работы</h2>
 
 
 
-<table>
-    <thead>
-        <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-    </tr>
-</thead>
+<table class="table">
+    
     <tbody> 
          <tr>
-        <td>Аудиотеле</td>
+        <td>АО "Аудиотеле"</td>
         <td>Оператор</td> 
         <td>11.2020-01.2021</td>   
         </tr>
         
         <tr>
-            <td>Региональные Телесистемы</td>
+            <td>ООО "Региональные Телесистемы</td>
             <td>Оператор</td> 
             <td>02.2021-наст.время</td>   
             </tr></tbody>
@@ -62,24 +71,42 @@
     
   
 </table>
-    
-<hr>
+</div>
+
+<div class="contact">
 <h2>Связаться со мной</h2>
 <form action="/">
+    <div class="row">
+    <div class="form-group">
     <label for="name">Ваше имя:</label>
     <input type="text" id="name" placeholder="Введите ваше имя...">
-</form>
-<br>
+</div>
+
+<div class="form-group">
     <label for="email">Ваш email:</label>
     <input type="email" id="email" placeholder="Введите ваш email...">
-  
-<br>
-<br>
+</div>
 
+</div>
+
+
+<div class="form-group">
     <label for="text">Ваш текст:</label>
     <textarea id="text" cols="20" rows="3"></textarea>
-    <br>
-    <br>
-    <input type="submit">
+</div>
+
+    <input class="btn" type="submit">
+
+</form>
+</div>
+
+<div class="position">
+    <div class="box"></div>
+</div>
+
+
+<div style="margin-bottom: 500px;">
+</div>
+
 </body>
 </html>
